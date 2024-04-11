@@ -1,6 +1,6 @@
 import pandas as pd
 print("Vollautomatische Tagessieg-Ermittlung\nFür die meisten Punkte unter den relevanten Tippern pro Spieltag gibt es einen Punkt, bei Punktgleicheit 1/Anzahl der Tipper")
-blt_platzierungen = pd.read_html("https://www.kicktipp.de/[xyz]/gesamtuebersicht?ansicht=spieltagspunkte&")[0]                           # Statt xyz Tipprunde
+blt_platzierungen = pd.read_html("https://www.kicktipp.de/xyz/gesamtuebersicht?ansicht=spieltagspunkte&")[0]                           # Statt xyz Name der Tipprunde
 tipper = ["x", "y", "z"]                                                                                                        # Statt x,y,z Namen der Tipper 
 print("Tagessiege im Bundesligatipp")                                                                                 # Report der Tagessiege in der Spielrunde 
 for tipp in tipper:
