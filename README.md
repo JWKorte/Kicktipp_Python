@@ -8,3 +8,5 @@ tagessiege.py: Zählt die Tagessiege von ausgewählten Tippern einer Tipprunde u
 platz.py: Platzierungsverlauf von ausgewählten Tippern
 
 torjaeger24: Torjägertipp. Es ist notwendig, die Torjägertipps so einzutragen, wie sie bei sport.de erscheinen.
+
+Benötigte Libraries: Pandas und Matplotlib
